@@ -1,0 +1,180 @@
+/* ************************************************************************/
+/********************************* GERAL **********************************/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background: rgba(118, 105, 230, 0.26);
+}
+
+/* ******************************* CABEÇALHO ******************************/
+
+
+body{
+    font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#cabecalho{
+    background: rgba(133, 133, 182, 0.795);
+    border-bottom: 1px solid black;
+    height: 80px;
+
+}
+
+
+#menulinks{
+    float: right;
+    margin-right: 40px;
+    margin-top: 45px;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+#logotipo{
+    float: left;
+    margin-left: 30px;
+    width: 120px;
+    height: 100px;
+}
+
+header span h1{
+    width: 200px;
+    margin: 0 auto;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+
+
+/* *********************************************************************** */
+
+/* ************************ AREA EMAIL *********************************** */
+
+#input-email{ /* TEXTO ANTES DA BOX PARA INSERIR EMAIL */
+    height: 120px;
+    padding: 40px;
+    text-align: center;  
+    box-sizing: border-box;  /* FAZ COM QUE O PADDING NÃO ALTERE O TAMANHO DA CAIXA */
+    background: linear-gradient(rgb(238, 218, 218), black);
+    color: rgb(255, 245, 152);
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: 10px 3px 10px; /* sombra do texto digite aqui... */
+}
+
+#email{   /* ESSA AQUI É A BOX EMAIL */
+    border: 2px solid black;
+    width: 200px;
+    height: 20px;
+
+}
+
+/* TRANSICAO DO BOTÃO ENVIAR!!!!!! */
+
+#botao-enviar{
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 0, 0);
+    transition: border 0.5s, border-radius 0.5s;
+}
+
+#botao-enviar:hover{  /*TRANSICAO PARA O BOTAO ENVIAR! */
+    border-radius: 10px;
+    border: 3px solid rgba(44, 44, 252, 0.623)
+}
+
+
+/* *********************************************************************** */
+/******************************* SEÇÃO 1 ***********************************/
+
+
+/* BOX DAS ENGRENAGENS */
+
+
+#box-engrenagens{
+    width: 500px;
+    border: 4px solid rgba(16, 10, 44, 0.596);
+    border-radius: 15px;
+    float: left;
+    margin: 110px;
+    margin-top: 30px;
+}
+
+#box-engrenagens:hover{
+    border-radius: 40px;
+    background-color: rgba(255, 255, 0, 0.568);
+    transition: border-radius 0.5s, background-color 0.5s;
+}
+
+#imagem-engrenagem{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: 5px 122px 5px;
+}
+
+#box-engrenagens p{ /* SELECIONANDO O PARAGRAFO DENTRO DA BOX ENGRENAGENS */
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+
+/* BOX CONTATE-NOS */
+
+
+#box-contatenos{
+    width: 500px;
+    border: 4px solid rgba(16, 10, 44, 0.596);
+    border-radius: 15px;
+    float: left;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+#box-contatenos:hover{
+    border-radius: 40px;
+    background-color: rgba(255, 255, 0, 0.568);
+    transition: border-radius 0.5s, background-color 0.5s;
+}
+
+#imagem-contatenos{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: 5px 122px 5px;
+}
+
+#box-contatenos p{ /* SELECIONANDO O PARAGRAFO DENTRO DA BOX ENGRENAGENS */
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+/**************************************************************************/
+/******************************* RODAPÉ **********************************/
+
+footer{
+    clear: both;
+    text-align: center;
+    margin-bottom: 12px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
